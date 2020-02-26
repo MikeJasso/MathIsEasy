@@ -8,10 +8,13 @@
 
 import UIKit
 
+import MathIsEasy
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(Math.shared.sum(a: 3, b: 4.5))
         // Do any additional setup after loading the view, typically from a nib.
     }
 
