@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MathIsEasy'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MathIsEasy.'
+  s.summary          = 'MathIsEasy helps you with all the sums'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "MathIsEasy helps you with all the sums, So yoo can waste a lot of time making another things"
 
   s.homepage         = 'https://github.com/Mikejasso/MathIsEasy'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -29,8 +27,9 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
+  s.swift_versions = '5.0'
   s.source_files = 'Sources/**/*'
+  
   
   # s.resource_bundles = {
   #   'MathIsEasy' => ['MathIsEasy/Assets/*.png']
