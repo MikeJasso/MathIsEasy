@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MathIsEasy'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'MathIsEasy helps you with all the sums'
 
 # This description is used to generate tags and improve search results.
